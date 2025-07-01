@@ -1,0 +1,88 @@
+.login {
+    height: 100vh;
+    background-color: rgb(20, 103, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card{
+        width:60%;
+        border-radius: 10px;
+        display: flex;
+        background-color: white;
+        min-height:400px;
+        overflow: hidden;
+        
+        .left{
+            flex:1;
+            background-image: linear-gradient(rgba(33, 149, 167, 0.362),rgba(22, 187, 212, 0.756)), url("https://media.istockphoto.com/id/1479798765/fr/photo/vertical-groupe-damis-heureux-posant-pour-un-selfie-un-jour-de-printemps-alors-quils-font.jpg?s=1024x1024&w=is&k=20&c=gDBAIpCRPP1ckW7KY7VCmSteIN3xAsbYW2u39aPmLAg=");
+            background-size:cover;
+            background-position: center;
+            padding:50px;
+            display:flex;
+            flex-direction: column;
+            gap:10px;
+            color: white;
+
+            h1{
+                font-size: 50px;
+                line-height: 60px;
+                margin-top: 10px;
+                margin-bottom: 10px
+                
+            }
+            p{
+               font-size: 14px;
+            }
+            span{
+                 font-size: 14px;
+                 margin-top: 10px;
+            }
+            button{
+                width:50%;
+                padding:10px;
+                border:none;
+                background-color: white;
+                color:rgb(16, 146, 160);
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .right{
+             flex:1;
+             padding: 50px;
+             display:flex;
+             flex-direction: column;
+             gap:50px;
+             justify-content: center;
+
+            h1{
+                color:rgba(8, 18, 43, 0.747) ;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap:30px;
+
+                 input{
+                    border:none;
+                    border-bottom: 1.5px solid lightgray;
+                    padding: 20px 10px;
+                 }
+
+            button{
+               width: 50%;
+               padding:10px;
+               border:none;
+               background-color: rgb(20, 103, 138);
+               color:white;
+               font-weight: bold;
+               margin-top: 20px;
+               cursor: pointer;
+            }
+            }
+           
+        }
+    }
+}

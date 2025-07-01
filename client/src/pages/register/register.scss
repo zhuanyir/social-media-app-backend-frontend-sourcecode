@@ -1,0 +1,89 @@
+.register {
+    height: 100vh;
+    background-color: rgb(20, 103, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card{
+        width:60%;
+        border-radius: 10px;
+        display: flex;
+        background-color: white;
+        min-height:400px;
+        overflow: hidden;
+        
+        .right{
+            flex:1;
+            background-image: linear-gradient(rgba(33, 149, 167, 0.362),rgba(22, 187, 212, 0.756)), url("https://images.pexels.com/photos/2672979/pexels-photo-2672979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            background-size:cover;
+            background-position: center;
+            padding:50px;
+            display:flex;
+            flex-direction: column;
+            gap:10px;
+            color: white;
+
+            h1{
+                font-size: 65px;
+                line-height: 80px;
+                margin-top: 10px;
+                margin-bottom: 10px
+                
+            }
+            p{
+               font-size: 14px;
+            }
+            span{
+                 font-size: 14px;
+                 margin-top: 10px;
+                 margin-bottom: 20px;
+            }
+            button{
+                width:50%;
+                padding:10px;
+                border:none;
+                background-color: white;
+                color:rgb(16, 146, 160);
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .left{
+             flex:1;
+             padding: 50px;
+             display:flex;
+             flex-direction: column;
+             gap:10px;
+             justify-content: center;
+
+            h1{
+                color:rgba(8, 18, 43, 0.747) ;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+
+                 input{
+                    border:none;
+                    border-bottom: 1.5px solid lightgray;
+                    padding: 15px 10px;
+                 }
+
+            button{
+               width: 50%;
+               padding:10px;
+               border:none;
+               background-color: rgb(20, 103, 138);
+               color:white;
+               font-weight: bold;
+               margin-top: 20px;
+               cursor: pointer;
+            }
+            }
+           
+        }
+    }
+}

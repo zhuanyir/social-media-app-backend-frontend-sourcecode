@@ -1,0 +1,3 @@
+[*.{js,jsx,ts,tsx}]
+charset = utf-8  # 强制UTF-8编码（无BOM）
+end_of_line = lf  # 强制Linux换行符（LF）
